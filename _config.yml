@@ -19,18 +19,18 @@
 # in the templates via {{ site.myvariable }}.
 
 title: CAVIAR - A Jekyll Knowledge Base Theme
-description: Odin is a simple to setup and use Jekyll theme for help desks and knowledge bases. Hosts for free on Github Pages!
-baseurl: /odin # the subpath of your site, e.g. /support
-url: https://teaguns.github.io # the base hostname AND PROTOCOL for your site, e.g. http://example.com
+description: CAVIAR is a simple to setup and use Jekyll theme for help desks and knowledge bases. Hosts for free on Github Pages!
+#baseurl: /odin # the subpath of your site, e.g. /support
+url: https://jr-marchand.github.io # the base hostname AND PROTOCOL for your site, e.g. http://example.com
 permalink: /:categories/:title
 
-content_type: Knowledge Base #Define whether this is a knowledge base, help center, or something else
+content_type: Patapouf Base #Define whether this is a knowledge base, help center, or something else
 use_authors: true #Set this to false to disable showing post authors
 
 brand_logo: logo.png
-brand_name: Odin
+brand_name: CAVIAR
 header: How can we help you?
-subheader: Support and documentation for Odin
+subheader: Support and documentation for CAVIAR
 
 meta_image: odin-meta.png
 
