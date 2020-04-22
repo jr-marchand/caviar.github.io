@@ -13,15 +13,15 @@ The easiest way to get CAVIAR is to install the Anaconda package. Anaconda is a 
 Start by downloading the Python 3.x Anaconda installer at https://www.anaconda.com/distribution/ and install it.
 
 Once Anaconda is installed, create a new environment for CAVIAR:
-	conda create -n caviar -c jr-marchand caviar
+> ```conda create -n caviar -c jr-marchand caviar ```
 And activate your environment (always activate it for using CAVIAR):
-	conda activate caviar
+> ```conda activate caviar ```
 
-And that is it! CAVIAR is accessible with the "caviar" command, and the user interface via the "caviar-gui" command.
+And that is it! CAVIAR is accessible with the ```caviar``` command, and the user interface via the ```caviar-gui``` command.
 
-If you want to use the PyMOL functionalities for vizualising cavities, please make sure that you have a PyMOL executable accessible as "pymol" in the command line.
+If you want to use the PyMOL functionalities for vizualising cavities, please make sure that you have a PyMOL executable accessible as ```pymol``` in the command line.
 In case you do not have PyMOL yet, you can install a version (accessible in the caviar conda environment) with:
-	conda install -n caviar -c schrodinger pymol
+> ```conda install -n caviar -c schrodinger pymol```
 
 
 
