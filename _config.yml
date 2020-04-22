@@ -18,8 +18,8 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: CAVIAR - A Jekyll Knowledge Base Theme
-description: CAVIAR is a simple to setup and use Jekyll theme for help desks and knowledge bases. Hosts for free on Github Pages!
+title: CAVIAR - Cavity Identification and Rationalization
+description: CAVIAR is a powerful tool to detect protein cavities and decompose them into relevant subpockets
 #baseurl: /odin # the subpath of your site, e.g. /support
 url: https://jr-marchand.github.io # the base hostname AND PROTOCOL for your site, e.g. http://example.com
 permalink: /:categories/:title
@@ -44,7 +44,7 @@ instagram_username:
 
 
 # Navivation
-nav_item_one: Github
+nav_item_one: GitHub
 nav_item_one_link: https://github.com/jr-marchand/CAVIAR
 
 nav_item_two: Twitter
@@ -53,13 +53,13 @@ nav_item_two_link: https://twitter.com/j_r_marchand
 nav_item_three: #
 nav_item_three_link: #
 
-nav_button: Return to Odin Home
+nav_button: Return to CAVIAR Home
 nav_button_link: https://jr-marchand.github.io/
 
 # More Help
 help_one_title: CAVIAR Bugs
-help_one_content: If you find any bugs or problems with this theme, please open an issue over on Github.
-help_one_button: Github
+help_one_content: If you find any bugs or problems with this theme, please open an issue over on GitHub.
+help_one_button: GitHub
 help_one_link: https://github.com/jr-marchand/CAVIAR/issues
 
 help_two_title: Twitter
