@@ -1,6 +1,9 @@
 ---
 layout: category
 category: using-subcategories
-title: Using Subcategories
-has-subcategories: true
+title: Using CAVIAR
 ---
+
+{% for post in site.categories.using-subcategories %}
+  {% include article-card.html %}
+{% endfor %}
