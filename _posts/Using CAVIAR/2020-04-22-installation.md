@@ -15,7 +15,7 @@ Start by downloading the Python 3.x Anaconda installer on the [Anaconda website 
 Once Anaconda is installed, create a new environment for CAVIAR:
 ```conda create -n caviar -c jr-marchand caviar ```
 
-And activate your environment (always activate it for using CAVIAR):
+Activate your environment (always activate it for using CAVIAR):
 ```conda activate caviar ```
 
 And that is it! CAVIAR is accessible with the ```caviar``` command, and the user interface via the ```caviar-gui``` command.
