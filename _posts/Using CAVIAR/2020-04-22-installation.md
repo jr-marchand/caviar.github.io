@@ -1,11 +1,10 @@
 ---
 layout: post
-title: "Subcategory Post"
-date: 22.04.2020 16:32:38 -0400
-category: subcategory-one
-subcategory: 
+title: "Installation of CAVIAR"
+date: 22.04.2020 16:31:38 -0400
+category: using-caviar
 author: jr
-short-description: CAVIAR GUI: how to use it?
+short-description: How to install CAVIAR?
 ---
 
 -----
