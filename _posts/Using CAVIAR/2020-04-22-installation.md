@@ -9,9 +9,21 @@ short-description: How to install CAVIAR?
 
 -----
 
-Odin is the Norse god of knowledge. He'll help deliver knowledge to your customers with his ravens.
+The easiest way to get CAVIAR is to install the Anaconda package. Anaconda is a package manager for Python.
+Start by downloading the Python 3.x Anaconda installer at https://www.anaconda.com/distribution/ and install it.
 
-Odin was built out of a frustration with various knowledge base and support software solutions and a desire to build something for the sake of building something.
+Once Anaconda is installed, create a new environment for CAVIAR:
+	conda create -n caviar -c jr-marchand caviar
+And activate your environment (always activate it for using CAVIAR):
+	conda activate caviar
+
+And that is it! CAVIAR is accessible with the "caviar" command, and the user interface via the "caviar-gui" command.
+
+If you want to use the PyMOL functionalities for vizualising cavities, please make sure that you have a PyMOL executable accessible as "pymol" in the command line.
+In case you do not have PyMOL yet, you can install a version (accessible in the caviar conda environment) with:
+	conda install -n caviar -c schrodinger pymol
+
+
 
 **More info coming soon**
 
