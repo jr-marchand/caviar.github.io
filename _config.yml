@@ -24,7 +24,7 @@ description: CAVIAR is a simple to setup and use Jekyll theme for help desks and
 url: https://jr-marchand.github.io # the base hostname AND PROTOCOL for your site, e.g. http://example.com
 permalink: /:categories/:title
 
-content_type: Patapouf Base #Define whether this is a knowledge base, help center, or something else
+content_type:  #Define whether this is a knowledge base, help center, or something else
 use_authors: true #Set this to false to disable showing post authors
 
 brand_logo: Picture1.png
