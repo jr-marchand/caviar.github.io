@@ -1,11 +1,11 @@
 ---
 layout: post
 title: "Subcategory Post"
-date: 2019-11-05 08:44:38 -0400
+date: 22.04.2020 16:32:38 -0400
 category: subcategory-one
 subcategory: 
-author: mac
-short-description: A quick overview of Odin to get you started
+author: jr
+short-description: CAVIAR GUI: how to use it?
 ---
 
 -----

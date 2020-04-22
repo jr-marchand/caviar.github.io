@@ -3,10 +3,10 @@
 
 using-caviar:
   name: Using CAVIAR
-  description: Learn to use CAVIAR!
+  description: Learn the basic use of CAVIAR and get started within few minutes
 advanced-use:
-  name: Advance usage
-  description: Welcome to CAVIAR, time to get really started
+  name: Advanced usage
+  description: Let's get our hands dirty
 cite:
   name: Citing CAVIAR
   description: Cite CAVIAR
