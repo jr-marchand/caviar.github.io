@@ -20,10 +20,10 @@ The output is visualized in the terminal as a table. The first table contains th
 PDB_chain | CavID | Ligab. |  Score |  Size | Hydrophob | Interchain | AltLocs | MissAtoms
 ----------|--------|---------|--------|-------|-----------|------------|---------|----------
 1dwc_H    |     1  |   0.6   |   3.7  | 333   |   39%     |     0      |    0    |    0     
-1dwc_H    |     2  |   0.2   |   0.9  |   51  |   10%     |     0      |    0    |    0
-1dwc_H    |     3  |   0.8   |   0.6  |   63  |   56%     |     0      |    0    |    0
+1dwc_H    |     2  |   0.2   |   0.9  |   51  |   10%     |     0      |    0    |    0     
+1dwc_H    |     3  |   0.8   |   0.6  |   63  |   56%     |     0      |    0    |    0     
 
-  
+    
 The "H" in 1dwc_H indicates that this is the chain H of PDB code 1dwc.
 
 - Ligab. = ligandability estimator  
@@ -132,6 +132,7 @@ Now let us make a final example combining all of the above. We want to check onl
 
 This is equivalent to the following:  
 ```caviar -custom_config ~/custom_config.cfg```  
+
 where ~/custom_config.cfg is:
 ```example
 ### Example of custom parameter file for CAVIAR ###  
