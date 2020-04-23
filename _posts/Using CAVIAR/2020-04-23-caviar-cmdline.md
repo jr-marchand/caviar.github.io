@@ -8,7 +8,7 @@ short-description: Batch use
 ---
 
 
-Once you have installed CAVIAR and activated the environment , you can call the command line instance of CAVIAR simply with:  
+Once you have installed CAVIAR and activated the environment ([--> installation <--]({% link _posts/Using CAVIAR/2020-04-22-installation.md %})), you can call the command line instance of CAVIAR simply with:  
 ```caviar -h```
 
 This will trigger the presentation of the tool. The most basic use only requires a PDB code:  
@@ -28,8 +28,8 @@ The "H" in 1dwc_H indicates that this is the chain H of PDB code 1dwc.
 
 - Ligab. = ligandability estimator  
 [0.0 - 0.2] = likely hard to ligand  
-[0.4-0.6] = not conclusive  
-[0.8-1.0] = probably easy to ligand  
+[0.4 - 0.6] = not conclusive  
+[0.8 - 1.0] = probably easy to ligand  
 - Score = cavity score, scales with size and buriedness: the bigger and the more buried, the higher the score.  
 - Hydrophob = hydrophobicity, count of aliphatic+aromatic grid points / total number of grid points.  
 - Interchain = is the cavity in between two protein chains? (Boolean) Some interfaces are spurious (crystal contacts), some are productive (biological interfaces). Please keep that in mind when analysing the results.  
@@ -68,12 +68,61 @@ We already saw one command line argument earlier: ```-code``` option to specify 
 - ```-subcavs_decomp``` to inactivate the subcavities decomposition (boolean).  
 - ```-out``` to define an output path (default: ./caviar_out/).  
 - ```-v``` to activate verbosity.  
+- ```-preset_config``` gives the choice between three presets default configuration: search for cavities and decompose them into subcavities (default, "default"), only search for cavities ("cavities_only"), or only export subcavities ("subcavities_only").  
 
-There are two more keywords referring to configuration files, in which you can specify all the previous command line arguments, and many more (see the section "advanced usage of CAVIAR").  
-- ```-preset_config``` gives the choice between three presets default files: search for cavities and decompose them into subcavities (default, "default"), only search for cavities ("cavities_only"), or only export subcavities ("subcavities_only").  
-- ```-custom_config``` gives the possibility to use a custom configuration file created by the user.
+# Configuration file 
 
-# Configuration file
+```caviar``` can take as unique argument, or in addition to command line arguments, a configuration file containing any of the parameters.
+
+- ```-custom_config``` gives the possibility to use a custom configuration file created by the user.  
+
+This file needs to follow the standard set by [--> configparse <--](https://docs.python.org/3/library/configparser.html#supported-ini-file-structure).
+
+```example
+[Simple Values]
+key=value
+spaces in keys=allowed
+spaces in values=allowed as well
+spaces around the delimiter = obviously
+you can also use : to delimit keys from values
+
+[All Values Are Strings]
+values like this: 1000000
+or this: 3.14159265359
+are they treated as numbers? : no
+integers, floats and booleans are held as: strings
+can use the API to get converted values directly: true
+
+[Multiline Values]
+chorus: I'm a lumberjack, and I'm okay
+    I sleep all night and I work all day
+
+[No Values]
+key_without_value
+empty string value here =
+
+[You can use comments]
+# like this
+; or this
+
+# By default only in an empty line.
+# Inline comments can be harmful because they prevent users
+# from using the delimiting characters as parts of values.
+# That being said, this can be customized.
+
+    [Sections Can Be Indented]
+        can_values_be_as_well = True
+        does_that_mean_anything_special = False
+        purpose = formatting for readability
+        multiline_values = are
+            handled just fine as
+            long as they are indented
+            deeper than the first line
+            of a value
+        # Did I mention we can indent comments, too?
+```
+
+Many parameters can be set in the configuration file and can be found in the advanced use section (link it once it's written!).
 
 
 # Final example 
@@ -82,8 +131,8 @@ Now let us make a final example combining all of the above. We want to check onl
 ```caviar -code 1dwc -sourcedir ~/ -chain_id H -preset_config subcavities_only -out ~/thrombin_caviar_out/ ```
 
 This is equivalent to the following:  
-```caviar -custom_config ~/custom_config.yaml```  
-where ~/custom_config.yaml is:
+```caviar -custom_config ~/custom_config.cfg```  
+where ~/custom_config.cfg is:
 ```example
 ### Example of custom parameter file for CAVIAR ###  
  
