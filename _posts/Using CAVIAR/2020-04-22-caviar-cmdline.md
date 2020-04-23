@@ -1,10 +1,10 @@
 ---
 layout: post
-title: "Command line use of CAVIAR"
-date: 22.04.2020 16:33:38 -0400
+title: "Installation of CAVIAR"
+date: 22.04.2020 16:31:38 -0400
 category: using-caviar
 author: jr
-short-description: CAVIAR GUI: how to use it?
+short-description: How to install CAVIAR?
 ---
 
 
