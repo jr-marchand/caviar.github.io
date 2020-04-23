@@ -15,7 +15,7 @@ This will trigger the presentation of the tool. The most basic use only requires
 ```caviar -code 1dwc```
 
 # Terminal output
-The output is visualized in the terminal as a table. The first table contains the list of identified cavities, ranked by cavity score. 
+The output is visualized in the terminal as a table. The first table contains the list of identified cavities, ranked by cavity score.  
 
 PDB_chain | CavID | Ligab. |  Score |  Size | Hydrophob | Interchain | AltLocs | MissAtoms
 ----------|--------|---------|--------|-------|-----------|------------|---------|----------
@@ -23,7 +23,7 @@ PDB_chain | CavID | Ligab. |  Score |  Size | Hydrophob | Interchain | AltLocs |
 1dwc_H    |     2  |   0.2   |   0.9  |   51  |   10%     |     0      |    0    |    0
 1dwc_H    |     3  |   0.8   |   0.6  |   63  |   56%     |     0      |    0    |    0
 
-
+  
 The "H" in 1dwc_H indicates that this is the chain H of PDB code 1dwc.
 
 - Ligab. = ligandability estimator  
@@ -40,7 +40,7 @@ The "H" in 1dwc_H indicates that this is the chain H of PDB code 1dwc.
 # Generated files
 In addition, CAVIAR generates by default a certain number of files in the working directory:
 
-```
+```example
 |-- 1dwc_cavities.pml
 |-- 1dwc_subcavities.pml
 |-- caviar_out/
