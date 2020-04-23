@@ -22,6 +22,18 @@ PDB_chain | CavID | Ligab. | Score | Size | Hydrophob | Interchain | AltLocs | M
 1dwc_H    |    3  |  0.8   |  0.6  |  63  |   56%     |     0      |    0    |    0
 
 
+
+In addition, CAVIAR generates by default a certain number of files in the working directory:
+
+> .
+> |-- 1dwc.pdb (if it needs to download the file, cf hereafter)
+> |-- 1dwc_cavities.pml
+> |-- 1dwc_subcavities.pml
+> |-- caviar_out/
+>     |-- 1dwc_cavs.pdb
+>     |-- 1dwc_subcavs.pdb
+
+
 ```caviar``` handles both command line arguments and the use of parameter files. 
 
 
