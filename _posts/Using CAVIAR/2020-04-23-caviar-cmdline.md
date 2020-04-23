@@ -6,14 +6,7 @@ category: using-caviar
 author: jr
 short-description: Batch use 
 ---
----
-layout: post
-title: "Command line use"
-date: 22.04.2020 16:33:38 -0400
-category: using-caviar
-author: jr
-short-description: Batch use 
----
+
 
 Once you have installed CAVIAR and activated the environment , you can call the command line instance of CAVIAR simply with:
 ```caviar -h```
