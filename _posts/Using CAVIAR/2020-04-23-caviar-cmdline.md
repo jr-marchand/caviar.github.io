@@ -44,11 +44,13 @@ The output is visualized in the terminal as a table. The first table contains th
 In addition, CAVIAR generates by default a certain number of files in the working directory:
 
 <blockquote>
-	<p>|-- 1dwc_cavities.pml<br>
+	<p>
+|-- 1dwc_cavities.pml<br>
 |-- 1dwc_subcavities.pml<br>
 |-- caviar_out/<br>
-    |-- 1dwc_cavs.pdb<br>
-    |-- 1dwc_subcavs.pdb </p>
+	&nbsp;&nbsp;|-- 1dwc_cavs.pdb<br>
+	&nbsp;&nbsp;|-- 1dwc_subcavs.pdb
+</p>
 </blockquote>
 
 
