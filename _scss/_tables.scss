@@ -11,14 +11,11 @@
 
   tbody {
     tr {
+      color: $body-font-color;
+      text-align: center;
       border-bottom: 2px solid $gray-color-light;
       transition: all ease 0.3s;
     }
-  }
-  td,
-  tr {
-    color: $body-font-color;
-    text-align: center;
   }
 
   &.table-striped {
