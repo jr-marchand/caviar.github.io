@@ -15,6 +15,11 @@
       transition: all ease 0.3s;
     }
   }
+  td,
+  tr {
+    color: $body-font-color;
+    text-align: center;
+  }
 
   &.table-striped {
     tbody {
@@ -57,7 +62,6 @@
   td,
   th {
     text-align: center;
-    color: $body-font-color;
     border-bottom: $border-width solid $gray-color-light;
     padding: $unit-3 $unit-2;
   }
