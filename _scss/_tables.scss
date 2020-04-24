@@ -1,20 +1,18 @@
 // Tables
-$dark-color: #2b2c34 !default;
-$body-font-color: lighten($dark-color, 5%) !default;
 
 .table {
   border-collapse: collapse;
   border-spacing: 0;
   width: 100%;
-  text-align: center;
 
   tbody {
+    text-align: center;
     tr {
       border-bottom: 2px solid $gray-color-light;
       transition: all ease 0.3s;
       td {
         text-align: center;
-        color: #gray-color-light;
+        color: $body-font-color;
       }
     }
   }
