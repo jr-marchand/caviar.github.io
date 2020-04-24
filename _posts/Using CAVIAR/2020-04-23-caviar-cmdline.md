@@ -146,10 +146,11 @@ where ~/custom_config.cfg is:
 ### Example of custom parameter file for CAVIAR ###  <br>
  <br>
 [custom] # At least one section header is necessary, the name does not matter <br>
-  sourcedir: ~/    # Source directory, otherwise downloads file  <br>
-  code: 1dwc       # PDB Code (no default)  <br>
-  chain_id: H      # Protein chain identifier of interest<br>
-  preset_config subcavities_only  # We want only subcavities<br>
-  out: ~/thrombin_caviar_out/ # Path/to/outfolder<br>
+ <br>
+ &nbsp;&nbsp;sourcedir: ~/    # Source directory, otherwise downloads file  <br>
+ &nbsp;&nbsp;code: 1dwc       # PDB Code (no default)  <br>
+ &nbsp;&nbsp;chain_id: H      # Protein chain identifier of interest<br>
+ &nbsp;&nbsp;preset_config subcavities_only  # We want only subcavities<br>
+ &nbsp;&nbsp;out: ~/thrombin_caviar_out/ # Path/to/outfolder<br>
 </p>
 </blockquote>
