@@ -11,11 +11,12 @@
 
   tbody {
     tr {
+      text-align: center;
       border-bottom: 2px solid $gray-color-light;
       transition: all ease 0.3s;
       font-size: inherit;
       font: inherit;
-      font-color: inherit;
+      font-color:#f13100f;
     }
   }
 
