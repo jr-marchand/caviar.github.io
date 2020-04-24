@@ -3,6 +3,8 @@
   border-collapse: collapse;
   border-spacing: 0;
   width: 100%;
+  font-size: 100%;
+  font: inherit;
   @if $rtl == true {
     text-align: right;
   } @else {
