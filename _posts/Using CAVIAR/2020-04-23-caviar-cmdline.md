@@ -20,17 +20,16 @@ The output is visualized in the terminal as a table. The first table contains th
 
 <table>
 <colgroup>
-<col width="10%" />
-<col width="10%" />
-<col width="10%" />
-<col width="10%" />
-<col width="10%" />
-<col width="10%" />
-<col width="10%" />
-<col width="10%" />
-<col width="10%" />
-<col width="10%" />
-</colgroup>
+<col width="11%" />
+<col width="11%" />
+<col width="11%" />
+<col width="11%" />
+<col width="11%" />
+<col width="11%" />
+<col width="11%" />
+<col width="11%" />
+<col width="11%" />
+ca</colgroup>
 <thead>
 <tr class="header">
 <th>PDB_chain</th>
@@ -38,7 +37,6 @@ The output is visualized in the terminal as a table. The first table contains th
 <th>Ligab.</th>
 <th>Score</th>
 <th>Size</th>
-<th>Field</th>
 <th>Hydrophob</th>
 <th>Interchain</th>
 <th>AltLocs</th>
