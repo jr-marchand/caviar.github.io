@@ -85,7 +85,7 @@ We already saw one command line argument earlier: ```-code``` option to specify 
 
 This file needs to follow the standard set by [--> configparse <--](https://docs.python.org/3/library/configparser.html#supported-ini-file-structure).
 
-```yaml
+<blockquote><p>
 [Simple Values]
 key=value
 spaces in keys=allowed
@@ -109,25 +109,26 @@ key_without_value
 empty string value here =
 
 [You can use comments]
-# like this
+\# like this
 ; or this
 
-# By default only in an empty line.
-# Inline comments can be harmful because they prevent users
-# from using the delimiting characters as parts of values.
-# That being said, this can be customized.
+\# By default only in an empty line.
+\# Inline comments can be harmful because they prevent users
+\# from using the delimiting characters as parts of values.
+\# That being said, this can be customized.
 
-    [Sections Can Be Indented]
-        can_values_be_as_well = True
-        does_that_mean_anything_special = False
-        purpose = formatting for readability
-        multiline_values = are
-            handled just fine as
-            long as they are indented
-            deeper than the first line
-            of a value
-        # Did I mention we can indent comments, too?
-```
+&nbsp;&nbsp;&nbsp;&nbsp;[Sections Can Be Indented]
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; can_values_be_as_well = True
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;does_that_mean_anything_special = False
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;purpose = formatting for readability
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;multiline_values = are
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;handled just fine as
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;long as they are indented
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;deeper than the first line
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;;of a value
+&nbsp;&nbsp;&nbsp;&nbsp;# Did I mention we can indent comments, too?
+</p>
+</blockquote>
 
 Many parameters can be set in the configuration file and can be found in the advanced use section (link it once it's written!).
 
