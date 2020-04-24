@@ -45,11 +45,12 @@ In addition, CAVIAR generates by default a certain number of files in the workin
 
 <blockquote>
 	<p>
-|-- 1dwc_cavities.pml<br>
-|-- 1dwc_subcavities.pml<br>
-|-- caviar_out/<br>
-	&nbsp;&nbsp;|-- 1dwc_cavs.pdb<br>
-	&nbsp;&nbsp;|-- 1dwc_subcavs.pdb
+&nbsp;&nbsp;|-- . <br>
+&nbsp;&nbsp;|-- 1dwc_cavities.pml<br>
+&nbsp;&nbsp;|-- 1dwc_subcavities.pml<br>
+&nbsp;&nbsp;|-- caviar_out/<br>
+	&nbsp;&nbsp;&nbsp;&nbsp;|-- 1dwc_cavs.pdb<br>
+	&nbsp;&nbsp;&nbsp;&nbsp;|-- 1dwc_subcavs.pdb
 </p>
 </blockquote>
 
