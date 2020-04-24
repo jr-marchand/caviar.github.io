@@ -109,23 +109,23 @@ key_without_value<br>
 empty string value here =<br>
 <br>
 [You can use comments]<br>
-\# like this<br>
+# like this<br>
 ; or this<br>
 <br>
-\# By default only in an empty line.<br>
-\# Inline comments can be harmful because they prevent users<br>
-\# from using the delimiting characters as parts of values.<br>
-\# That being said, this can be customized.<br>
+# By default only in an empty line.<br>
+# Inline comments can be harmful because they prevent users<br>
+# from using the delimiting characters as parts of values.<br>
+# That being said, this can be customized.<br>
 <br>
 &nbsp;&nbsp;&nbsp;&nbsp;[Sections Can Be Indented]<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; can_values_be_as_well = True<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;can_values_be_as_well = True<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;does_that_mean_anything_special = False<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;purpose = formatting for readability<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;multiline_values = are<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;handled just fine as<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;long as they are indented<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;deeper than the first line<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;;of a value<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;of a value<br>
 &nbsp;&nbsp;&nbsp;&nbsp;# Did I mention we can indent comments, too?<br>
 </p>
 </blockquote>
