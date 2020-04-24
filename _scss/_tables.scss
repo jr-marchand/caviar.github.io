@@ -1,40 +1,65 @@
-/* ==========================================================================
-   TABLES
-   ========================================================================== */
-
-table {
-  display: block;
-  margin-bottom: 1em;
-  width: 100%;
-  font-family: inherit;
-  font-size: inherit;
-  font-color: inherit;
+// Tables
+.table {
   border-collapse: collapse;
-  overflow-x: auto;
-
-  & + table {
-    margin-top: 1em;
+  border-spacing: 0;
+  width: 100%;
+  @if $rtl == true {
+    text-align: right;
+  } @else {
+    text-align: left;
   }
-}
 
-thead {
-  background-color: $bg-color;
-  border-bottom: 2px solid mix(#000, $bg-color, 25%);
-}
+  tbody {
+    tr {
+      border-bottom: 2px solid $gray-color-light;
+      transition: all ease 0.3s;
+    }
+  }
 
-th {
-  padding: 0.5em;
-  font-weight: bold;
-  text-align: left;
-}
+  &.table-striped {
+    tbody {
+      tr:nth-of-type(odd) {
+        background: $bg-color;
+      }
+    }
+  }
 
-td {
-  padding: 0.5em;
-  border-bottom: 1px solid mix(#000, $border-color, 25%);
-}
+  &,
+  &.table-striped {
+    tbody {
+      tr {
+        &.active {
+          background: $gray-color-light;
+        }
+      }
+    }
+  }
 
-tr,
-td,
-th {
-  vertical-align: middle;
+  &.table-hover {
+    tbody {
+      tr {
+        &:hover {
+          background: $gray-color-light;
+          border-bottom: 2px solid $gray-color;
+        }
+      }
+    }
+  }
+
+  // Scollable tables
+  &.table-scroll {
+    display: block;
+    overflow-x: auto;
+    padding-bottom: .75rem;
+    white-space: nowrap;
+  }
+
+  td,
+  th {
+    border-bottom: $border-width solid $gray-color-light;
+    padding: $unit-3 $unit-2;
+  }
+  th {
+    border-bottom-width: $border-width-lg;
+  }
 }
