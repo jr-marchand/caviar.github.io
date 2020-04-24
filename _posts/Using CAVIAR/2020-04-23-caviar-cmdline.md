@@ -125,7 +125,7 @@ empty string value here =
 Many parameters can be set in the configuration file and can be found in the advanced use section (link it once it's written!).
 
 
-# Final example 
+# Final wrapping up example 
 
 Now let us make a final example combining all of the above. We want to check only subcavities of PDB 1dwc (human Thrombin (protease), in complex with an inhibitor), present in chain H, output in the folder "~/thrombin_caviar_out/" and we have already downloaded the PDB at ~/1dwc.pdb.  
 ```caviar -code 1dwc -sourcedir ~/ -chain_id H -preset_config subcavities_only -out ~/thrombin_caviar_out/ ```
