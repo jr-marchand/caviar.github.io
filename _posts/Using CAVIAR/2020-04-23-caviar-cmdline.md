@@ -83,7 +83,7 @@ The output is visualized in the terminal as a table. The first table contains th
 
 | PDB_chain | CavID | Ligab. |  Score |  Size | Hydrophob | Interchain | AltLocs | MissAtoms |
 | :-------- |:------ | :------ | :----- | :---- | :-------- | :--------- | :------ | :----- |
-| 1dwc_H    |     1  |   0.6   |   3.7  | bla   |   39%     |     0      |    0    |    0   |
+| 1dwc_H    |     1  |   0.6   |   3.7  | bly   |   39%     |     0      |    0    |    0   |
 | 1dwc_H    |     2  |   0.2   |   0.9  |   51  |   10%     |     0      |    0    |    0   | 
 | 1dwc_H    |     3  |   0.8   |   0.6  |   63  |   56%     |     0      |    0    |    0   | 
 
@@ -142,7 +142,7 @@ We already saw one command line argument earlier: ```-code``` option to specify 
 
 This file needs to follow the standard set by [--> configparse <--](https://docs.python.org/3/library/configparser.html#supported-ini-file-structure).
 
-```example
+```ini
 [Simple Values]
 key=value
 spaces in keys=allowed
