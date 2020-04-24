@@ -25,18 +25,52 @@ The output is visualized in the terminal as a table. The first table contains th
 </colgroup>
 <thead>
 <tr class="header">
+<th>PDB_chain</th>
+<th>CavID</th>
+<th>Ligab.</th>
+<th>Score</th>
+<th>Size</th>
 <th>Field</th>
-<th>Description</th>
+<th>Hydrophob</th>
+<th>Interchain</th>
+<th>AltLocs</th>
+<th>MissAtoms</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td markdown="span">First column **fields**</td>
-<td markdown="span">Some descriptive text. This is a markdown link to [Google](http://google.com). Or see [some link][mydoc_tags].</td>
+<td markdown="span">1dwc_H</td>
+<td markdown="span">1</td>
+<td markdown="span">0.6</td>
+<td markdown="span">3.7</td>
+<td markdown="span">333</td>
+<td markdown="span">39%</td>
+<td markdown="span">0</td>
+<td markdown="span">0</td>
+<td markdown="span">0</td>
 </tr>
 <tr>
-<td markdown="span">Second column **fields**</td>
-<td markdown="span">Some more descriptive text.
+<td markdown="span">1dwc_H</td>
+<td markdown="span">2</td>
+<td markdown="span">0.2</td>
+<td markdown="span">0.9</td>
+<td markdown="span">51</td>
+<td markdown="span">10%</td>
+<td markdown="span">0</td>
+<td markdown="span">0</td>
+<td markdown="span">0</td>
+</tr>
+<tr>
+<td markdown="span">1dwc_H</td>
+<td markdown="span">3</td>
+<td markdown="span">0.8</td>
+<td markdown="span">0.6</td>
+<td markdown="span">63</td>
+<td markdown="span">56%</td>
+<td markdown="span">0</td>
+<td markdown="span">0</td>
+<td markdown="span">0</td>
+</tr>
 </td>
 </tr>
 </tbody>
