@@ -130,7 +130,7 @@ empty string value here =<br>
 </p>
 </blockquote>
 
-Many parameters can be set in the configuration file and can be found in the advanced use section (link it once it's written!).
+Many parameters can be set in the configuration file and can be found in the advanced use section (```link it once it's written!```).
 
 
 # Final wrapping up example 
@@ -142,13 +142,14 @@ This is equivalent to the following:
 ```caviar -custom_config ~/custom_config.cfg```  
 
 where ~/custom_config.cfg is:
-```example
-### Example of custom parameter file for CAVIAR ###  
- 
-[custom]  
-  sourcedir: ~/    # Source directory, otherwise downloads file  
-  code: 1dwc       # PDB Code (no default)  
-  chain_id: H      # Protein chain identifier of interest
-  preset_config subcavities_only  # We want only subcavities
-  out: ~/thrombin_caviar_out/ # Path/to/outfolder
-```
+<blockquote><p>
+### Example of custom parameter file for CAVIAR ###  <br>
+ <br>
+[custom] # At least one section header is necessary, the name does not matter <br>
+  sourcedir: ~/    # Source directory, otherwise downloads file  <br>
+  code: 1dwc       # PDB Code (no default)  <br>
+  chain_id: H      # Protein chain identifier of interest<br>
+  preset_config subcavities_only  # We want only subcavities<br>
+  out: ~/thrombin_caviar_out/ # Path/to/outfolder<br>
+</p>
+</blockquote>
