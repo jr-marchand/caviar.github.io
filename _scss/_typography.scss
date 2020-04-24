@@ -111,7 +111,7 @@ blockquote {
 // Lists
 ul,
 ol {
-  color: inherit;
+  color: $body-font-color;
   margin: $unit-4 0 $unit-4 $unit-4;
   padding: 0;
 
