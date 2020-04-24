@@ -12,6 +12,8 @@
   tbody {
     tr {
       text-align: center;
+      opacity: 0.8;
+      font-weight: 600;
       border-bottom: 2px solid $gray-color-light;
       transition: all ease 0.3s;
     }
