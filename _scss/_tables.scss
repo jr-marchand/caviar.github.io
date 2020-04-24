@@ -6,15 +6,26 @@
   width: 100%;
 
   tbody {
-    text-align: center;
     tr {
       border-bottom: 2px solid $gray-color-light;
       transition: all ease 0.3s;
-      td {
-        text-align: center;
-        color: $body-font-color;
       }
     }
+  }
+
+  td,
+  th {
+    text-align: center;
+    color: $body-font-color;
+  }
+
+  td,
+  th {
+    border-bottom: $border-width solid $gray-color-light;
+    padding: $unit-3 $unit-2;
+  }
+  th {
+    border-bottom-width: $border-width-lg;
   }
 
   &.table-striped {
@@ -55,12 +66,5 @@
     white-space: nowrap;
   }
 
-  td,
-  th {
-    border-bottom: $border-width solid $gray-color-light;
-    padding: $unit-3 $unit-2;
-  }
-  th {
-    border-bottom-width: $border-width-lg;
-  }
+
 }
