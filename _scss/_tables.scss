@@ -4,12 +4,8 @@
   border-collapse: collapse;
   border-spacing: 0;
   width: 100%;
-  @if $rtl == true {
-    text-align: right;
-  } @else {
-    text-align: center;
-  }
-
+  text-align: center;
+  
   tbody {
     tr {
       border-bottom: 2px solid $gray-color-light;
