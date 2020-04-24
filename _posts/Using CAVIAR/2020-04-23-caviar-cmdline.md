@@ -18,73 +18,10 @@ This will trigger the presentation of the tool. The most basic use only requires
 The output is visualized in the terminal as a table. The first table contains the list of identified cavities, ranked by cavity score.  
 
 
-<table>
-<colgroup>
-<col width="11%" />
-<col width="11%" />
-<col width="11%" />
-<col width="11%" />
-<col width="11%" />
-<col width="11%" />
-<col width="11%" />
-<col width="11%" />
-<col width="11%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>PDB_chain</th>
-<th>CavID</th>
-<th>Ligab.</th>
-<th>Score</th>
-<th>Size</th>
-<th>Hydrophob</th>
-<th>Interchain</th>
-<th>AltLocs</th>
-<th>MissAtoms</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td markdown="span">1dwc_H</td>
-<td markdown="span">1</td>
-<td markdown="span">0.6</td>
-<td markdown="span">3.7</td>
-<td markdown="span">333</td>
-<td markdown="span">39%</td>
-<td markdown="span">0</td>
-<td markdown="span">0</td>
-<td markdown="span">0</td>
-</tr>
-<tr>
-<td markdown="span">1dwc_H</td>
-<td markdown="span">2</td>
-<td markdown="span">0.2</td>
-<td markdown="span">0.9</td>
-<td markdown="span">51</td>
-<td markdown="span">10%</td>
-<td markdown="span">0</td>
-<td markdown="span">0</td>
-<td markdown="span">0</td>
-</tr>
-<tr>
-<td markdown="span">1dwc_H</td>
-<td markdown="span">3</td>
-<td markdown="span">0.8</td>
-<td markdown="span">0.6</td>
-<td markdown="span">63</td>
-<td markdown="span">56%</td>
-<td markdown="span">0</td>
-<td markdown="span">0</td>
-<td markdown="span">0</td>
-</tr>
-</tbody>
-</table>
-{:.table .wide .inner-borders}
-
 
 | PDB_chain | CavID | Ligab. |  Score |  Size | Hydrophob | Interchain | AltLocs | MissAtoms |
 | :-------- |:------ | :------ | :----- | :---- | :-------- | :--------- | :------ | :----- |
-| 1dwc_H    |     1  |   0.6   |   3.7  | blae   |   39%     |     0      |    0    |    0   |
+| 1dwc_H    |     1  |   0.6   |   3.7  | bla   |   39%     |     0      |    0    |    0   |
 | 1dwc_H    |     2  |   0.2   |   0.9  |   51  |   10%     |     0      |    0    |    0   |
 | 1dwc_H    |     3  |   0.8   |   0.6  |   63  |   56%     |     0      |    0    |    0   |
 {:.table}

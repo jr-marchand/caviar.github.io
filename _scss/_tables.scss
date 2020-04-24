@@ -14,6 +14,9 @@
       border-bottom: 2px solid $gray-color-light;
       transition: all ease 0.3s;
     }
+    td {
+      font-color: body-font-color;
+    }
   }
 
   &.table-striped {
