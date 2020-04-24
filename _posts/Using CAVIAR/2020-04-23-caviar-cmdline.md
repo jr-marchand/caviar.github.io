@@ -80,7 +80,7 @@ The output is visualized in the terminal as a table. The first table contains th
 </tbody>
 </table>
 
-
+{: .table}
 | PDB_chain | CavID | Ligab. |  Score |  Size | Hydrophob | Interchain | AltLocs | MissAtoms |
 | :-------- |:------ | :------ | :----- | :---- | :-------- | :--------- | :------ | :----- |
 | 1dwc_H    |     1  |   0.6   |   3.7  | bly   |   39%     |     0      |    0    |    0   |
