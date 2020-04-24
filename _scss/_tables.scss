@@ -2,6 +2,8 @@
 .table {
   border-collapse: collapse;
   border-spacing: 0;
+  font: inherit;
+  font-color: inherit;
   width: 100%;
   @if $rtl == true {
     text-align: right;
