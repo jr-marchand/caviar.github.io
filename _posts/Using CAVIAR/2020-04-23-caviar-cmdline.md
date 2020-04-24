@@ -85,7 +85,7 @@ The output is visualized in the terminal as a table. The first table contains th
 | 1dwc_H    |     1  |   0.6   |   3.7  | bla   |   39%     |     0      |    0    |    0   |
 | 1dwc_H    |     2  |   0.2   |   0.9  |   51  |   10%     |     0      |    0    |    0   | 
 | 1dwc_H    |     3  |   0.8   |   0.6  |   63  |   56%     |     0      |    0    |    0   | 
-{:.table}
+{:.table .wide .inner-borders}
 
     
 The "H" in 1dwc_H indicates that this is the chain H of PDB code 1dwc.
