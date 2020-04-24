@@ -11,8 +11,8 @@
 
   tbody {
     tr {
-      color: #4caf50 ;
-      text-align: center;
+      color: lighten(#2b2c34, 5%) ;
+      text-align: right;
       border-bottom: 2px solid $gray-color-light;
       transition: all ease 0.3s;
     }
