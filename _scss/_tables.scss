@@ -3,12 +3,13 @@
   border-collapse: collapse;
   border-spacing: 0;
   width: 100%;
-  font-size: 100%;
+  font-size: inherit;
   font: inherit;
+  font-color: inherit;
   @if $rtl == true {
     text-align: right;
   } @else {
-    text-align: left;
+    text-align: center;
   }
 
   tbody {
