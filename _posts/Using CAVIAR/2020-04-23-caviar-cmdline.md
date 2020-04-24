@@ -86,47 +86,47 @@ We already saw one command line argument earlier: ```-code``` option to specify 
 This file needs to follow the standard set by [--> configparse <--](https://docs.python.org/3/library/configparser.html#supported-ini-file-structure).
 
 <blockquote><p>
-[Simple Values]
-key=value
-spaces in keys=allowed
-spaces in values=allowed as well
-spaces around the delimiter = obviously
-you can also use : to delimit keys from values
-
-[All Values Are Strings]
-values like this: 1000000
-or this: 3.14159265359
-are they treated as numbers? : no
-integers, floats and booleans are held as: strings
-can use the API to get converted values directly: true
-
-[Multiline Values]
-chorus: I'm a lumberjack, and I'm okay
-    I sleep all night and I work all day
-
-[No Values]
-key_without_value
-empty string value here =
-
-[You can use comments]
-\# like this
-; or this
-
-\# By default only in an empty line.
-\# Inline comments can be harmful because they prevent users
-\# from using the delimiting characters as parts of values.
-\# That being said, this can be customized.
-
-&nbsp;&nbsp;&nbsp;&nbsp;[Sections Can Be Indented]
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; can_values_be_as_well = True
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;does_that_mean_anything_special = False
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;purpose = formatting for readability
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;multiline_values = are
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;handled just fine as
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;long as they are indented
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;deeper than the first line
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;;of a value
-&nbsp;&nbsp;&nbsp;&nbsp;# Did I mention we can indent comments, too?
+[Simple Values]<br>
+key=value<br>
+spaces in keys=allowed<br>
+spaces in values=allowed as well<br>
+spaces around the delimiter = obviously<br>
+you can also use : to delimit keys from values<br>
+<br>
+[All Values Are Strings]<br>
+values like this: 1000000<br>
+or this: 3.14159265359<br>
+are they treated as numbers? : no<br>
+integers, floats and booleans are held as: strings<br>
+can use the API to get converted values directly: true<br>
+<br>
+[Multiline Values]<br>
+chorus: I'm a lumberjack, and I'm okay<br>
+    I sleep all night and I work all day<br>
+<br>
+[No Values]<br>
+key_without_value<br>
+empty string value here =<br>
+<br>
+[You can use comments]<br>
+\# like this<br>
+; or this<br>
+<br>
+\# By default only in an empty line.<br>
+\# Inline comments can be harmful because they prevent users<br>
+\# from using the delimiting characters as parts of values.<br>
+\# That being said, this can be customized.<br>
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;[Sections Can Be Indented]<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; can_values_be_as_well = True<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;does_that_mean_anything_special = False<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;purpose = formatting for readability<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;multiline_values = are<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;handled just fine as<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;long as they are indented<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;deeper than the first line<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;;of a value<br>
+&nbsp;&nbsp;&nbsp;&nbsp;# Did I mention we can indent comments, too?<br>
 </p>
 </blockquote>
 
