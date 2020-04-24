@@ -20,8 +20,8 @@ The output is visualized in the terminal as a table. The first table contains th
 
 
 | PDB_chain | CavID | Ligab. |  Score |  Size | Hydrophob | Interchain | AltLocs | MissAtoms |
-| -------- |------ | ------ | ----- | ---- | -------- | --------- | ------ | ----- |
-| 1dwc_H    |     1  |   0.6   |   3.7  | 3333   |   39%     |     0      |    0    |    0   |
+| --------- |------- | ------- | ------ | ----- | --------- | ---------- | ------- | ------ |
+| 1dwc_H    |     1  |   0.6   |   3.7  | 333   |   39%     |     0      |    0    |    0   |
 | 1dwc_H    |     2  |   0.2   |   0.9  |   51  |   10%     |     0      |    0    |    0   |
 | 1dwc_H    |     3  |   0.8   |   0.6  |   63  |   56%     |     0      |    0    |    0   |
 {:.table.table-hover}
@@ -43,13 +43,13 @@ The output is visualized in the terminal as a table. The first table contains th
 # Generated files
 In addition, CAVIAR generates by default a certain number of files in the working directory:
 
-```example
-|-- 1dwc_cavities.pml
+<blockquote>
+	<p>|-- 1dwc_cavities.pml
 |-- 1dwc_subcavities.pml
 |-- caviar_out/
     |-- 1dwc_cavs.pdb
-    |-- 1dwc_subcavs.pdb
-```
+    |-- 1dwc_subcavs.pdb </p>
+</blockquote>
 
 
 The two \*.pml files are pymol session files to automatically open and visualize the PDB file and its cavities or subcavities, respectively. The folder caviar_out/ contains the original PDB file with at the end, the cavities with the residue name GRI and the subcavities as SUB. Cavities contain as b factor the buriedness for each cavity grid point (from 8 to 14, with 14 being the most buried) and as occupancy field the pharmacophore type of the grid point, i.e., the chemical type of the closest atom of the protein. By default, the coloring of cavities is one color per cavity, but this can be changed for a coloring by buriedness or pharmacophore types, with a legend (cf command line arguments section). Cavities are ordered as in the printout, with the first cavity being represented in the PDB file as resname GRI, chain A, residue index 1. The second cavity is GRI A 2, and so forth.  
