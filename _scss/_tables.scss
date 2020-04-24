@@ -1,46 +1,39 @@
-//
-// Basic Bootstrap table
-//
+/* ==========================================================================
+   TABLES
+   ========================================================================== */
 
-.table {
-  --bs-table-bg: #{$table-bg};
-  --bs-table-accent-bg: transparent;
-  --bs-table-striped-color: #{$table-striped-color};
-  --bs-table-striped-bg: #{$table-striped-bg};
-  --bs-table-active-color: #{$table-active-color};
-  --bs-table-active-bg: #{$table-active-bg};
-  --bs-table-hover-color: #{$table-hover-color};
-  --bs-table-hover-bg: #{$table-hover-bg};
-
+table {
+  display: block;
+  margin-bottom: 1em;
   width: 100%;
-  margin-bottom: $spacer;
-  color: $table-color;
-  vertical-align: $table-cell-vertical-align;
-  border-color: $table-border-color;
+  font-family: $base-font-family;
+  font-size: $font-size;
+  border-collapse: collapse;
+  overflow-x: auto;
 
-  // Target th & td
-  // We need the child combinator to prevent styles leaking to nested tables which doesn't have a `.table` class.
-  // We use the universal selectors here to simplify the selector (else we would need 6 different selectors).
-  // Another advantage is that this generates less code and makes the selector less specific making it easier to override.
-  // stylelint-disable-next-line selector-max-universal
-  > :not(caption) > * > * {
-    padding: $table-cell-padding;
-    background-color: var(--bs-table-bg);
-    background-image: linear-gradient(var(--bs-table-accent-bg), var(--bs-table-accent-bg));
-    border-bottom-width: $table-border-width;
+  & + table {
+    margin-top: 1em;
   }
+}
 
-  > tbody {
-    vertical-align: inherit;
-  }
+thead {
+  background-color: $bg-color;
+  border-bottom: 2px solid mix(#000, $bg-color, 25%);
+}
 
-  > thead {
-    vertical-align: bottom;
-  }
+th {
+  padding: 0.5em;
+  font-weight: bold;
+  text-align: left;
+}
 
-  // Highlight border color between thead, tbody and tfoot.
-  // stylelint-disable-next-line selector-max-universal
-  > :not(:last-child) > :last-child > * {
-    border-bottom-color: $table-group-seperator-color;
-  }
+td {
+  padding: 0.5em;
+  border-bottom: 1px solid mix(#000, $border-color, 25%);
+}
+
+tr,
+td,
+th {
+  vertical-align: middle;
 }
