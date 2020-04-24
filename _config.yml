@@ -20,7 +20,7 @@
 
 title: CAVIAR - Cavity Identification and Rationalization
 description: CAVIAR is a powerful tool to detect protein cavities and decompose them into relevant subpockets
-#baseurl: /odin # the subpath of your site, e.g. /support
+baseurl: /caviar # the subpath of your site, e.g. /support
 url: https://jr-marchand.github.io # the base hostname AND PROTOCOL for your site, e.g. http://example.com
 permalink: /:categories/:title
 
