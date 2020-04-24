@@ -6,8 +6,9 @@ table {
   display: block;
   margin-bottom: 1em;
   width: 100%;
-  font-family: $base-font-family;
-  font-size: $font-size;
+  font-family: inherit;
+  font-size: inherit;
+  font-color: inherit;
   border-collapse: collapse;
   overflow-x: auto;
 
