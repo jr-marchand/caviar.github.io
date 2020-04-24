@@ -1,15 +1,18 @@
 // Tables
-
 .table {
   border-collapse: collapse;
   border-spacing: 0;
   width: 100%;
+  @if $rtl == true {
+    text-align: right;
+  } @else {
+    text-align: left;
+  }
 
   tbody {
     tr {
       border-bottom: 2px solid $gray-color-light;
       transition: all ease 0.3s;
-      }
     }
   }
 
@@ -50,7 +53,7 @@
     padding-bottom: .75rem;
     white-space: nowrap;
   }
-  
+
   td,
   th {
     border-bottom: $border-width solid $gray-color-light;
@@ -59,5 +62,4 @@
   th {
     border-bottom-width: $border-width-lg;
   }
-
 }
