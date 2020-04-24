@@ -13,16 +13,6 @@
     }
   }
 
-
-  td,
-  th {
-    border-bottom: $border-width solid $gray-color-light;
-    padding: $unit-3 $unit-2;
-  }
-  th {
-    border-bottom-width: $border-width-lg;
-  }
-
   &.table-striped {
     tbody {
       tr:nth-of-type(odd) {
@@ -59,6 +49,15 @@
     overflow-x: auto;
     padding-bottom: .75rem;
     white-space: nowrap;
+  }
+  
+  td,
+  th {
+    border-bottom: $border-width solid $gray-color-light;
+    padding: $unit-3 $unit-2;
+  }
+  th {
+    border-bottom-width: $border-width-lg;
   }
 
 }
