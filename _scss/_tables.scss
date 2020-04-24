@@ -13,7 +13,10 @@
     tr {
       border-bottom: 2px solid $gray-color-light;
       transition: all ease 0.3s;
-      font-color: body-font-color;
+      td {
+        text-align: center;
+        color: $body-font-color;
+      }
     }
   }
 
