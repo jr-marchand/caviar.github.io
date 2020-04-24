@@ -85,7 +85,7 @@ We already saw one command line argument earlier: ```-code``` option to specify 
 
 This file needs to follow the standard set by [--> configparse <--](https://docs.python.org/3/library/configparser.html#supported-ini-file-structure).
 
-```ini
+```yaml
 [Simple Values]
 key=value
 spaces in keys=allowed
