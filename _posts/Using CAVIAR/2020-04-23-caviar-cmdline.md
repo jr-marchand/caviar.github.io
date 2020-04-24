@@ -20,8 +20,16 @@ The output is visualized in the terminal as a table. The first table contains th
 
 <table>
 <colgroup>
-<col width="30%" />
-<col width="70%" />
+<col width="10%" />
+<col width="10%" />
+<col width="10%" />
+<col width="10%" />
+<col width="10%" />
+<col width="10%" />
+<col width="10%" />
+<col width="10%" />
+<col width="10%" />
+<col width="10%" />
 </colgroup>
 <thead>
 <tr class="header">
