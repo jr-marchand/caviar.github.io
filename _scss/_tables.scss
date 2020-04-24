@@ -3,9 +3,6 @@
   border-collapse: collapse;
   border-spacing: 0;
   width: 100%;
-  font-size: inherit;
-  font: inherit;
-  font-color: inherit;
   @if $rtl == true {
     text-align: right;
   } @else {
@@ -16,6 +13,9 @@
     tr {
       border-bottom: 2px solid $gray-color-light;
       transition: all ease 0.3s;
+      font-size: inherit;
+      font: inherit;
+      font-color: inherit;
     }
   }
 
