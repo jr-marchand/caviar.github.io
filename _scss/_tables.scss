@@ -56,6 +56,8 @@
 
   td,
   th {
+    text-align: center;
+    color: $body-font-color;
     border-bottom: $border-width solid $gray-color-light;
     padding: $unit-3 $unit-2;
   }
