@@ -21,7 +21,7 @@ The output is visualized in the terminal as a table. The first table contains th
 
 | PDB_chain | CavID | Ligab. |  Score |  Size | Hydrophob | Interchain | AltLocs | MissAtoms |
 | -------- |------ | ------ | ----- | ---- | -------- | --------- | ------ | ----- |
-| 1dwc_H    |     1  |   0.6   |   3.7  | 333   |   39%     |     0      |    0    |    0   |
+| 1dwc_H    |     1  |   0.6   |   3.7  | 3333   |   39%     |     0      |    0    |    0   |
 | 1dwc_H    |     2  |   0.2   |   0.9  |   51  |   10%     |     0      |    0    |    0   |
 | 1dwc_H    |     3  |   0.8   |   0.6  |   63  |   56%     |     0      |    0    |    0   |
 {:.table.table-hover}
@@ -30,11 +30,9 @@ The output is visualized in the terminal as a table. The first table contains th
 - PDB_chain = PDB code underscore chain identifier (here, PDB 1dwc, chain H)
 - CavID = cavity identifier
 - Ligab. = ligandability estimator
-
-[0.0 - 0.2] = likely hard to ligand  
-[0.4 - 0.6] = not conclusive  
-[0.8 - 1.0] = probably easy to ligand
-
+  - [0.0 - 0.2] = likely hard to ligand  
+  - [0.4 - 0.6] = not conclusive  
+  - [0.8 - 1.0] = probably easy to ligand
 - Score = cavity score, scales with size and buriedness: the bigger and the more buried, the higher the score.  
 - Hydrophob = hydrophobicity, count of aliphatic+aromatic grid points / total number of grid points.  
 - Interchain = is the cavity in between two protein chains? (Boolean) Some interfaces are spurious (crystal contacts), some are productive (biological interfaces). Please keep that in mind when analysing the results.  
