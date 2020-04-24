@@ -70,7 +70,6 @@ The output is visualized in the terminal as a table. The first table contains th
 <td markdown="span">0</td>
 <td markdown="span">0</td>
 <td markdown="span">0</td>
-</tr>
 </td>
 </tr>
 </tbody>
