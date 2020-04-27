@@ -2,13 +2,8 @@
 .table {
   border-collapse: collapse;
   border-spacing: 0;
-  // width: 100%;
-  max-width: 100%;
-  // overflow-y: auto;
-  overflow: auto;
-  // margin: 0 0 1em;
-
-
+  width: 100%;
+  
   @if $rtl == true {
     text-align: right;
   } @else {
@@ -72,6 +67,4 @@
   th {
     border-bottom-width: $border-width-lg;
   }
-
-
 }
