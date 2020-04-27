@@ -13,11 +13,11 @@ short-description: How to install CAVIAR?
 The best way to get CAVIAR is to install the Anaconda package manager for Python.
 Start by downloading the Python 3.x Anaconda installer on the [--> Anaconda website <--](https://www.anaconda.com/distribution/) and install it.
 
-Once Anaconda is installed, create a new environment for CAVIAR:
+Once Anaconda is installed, create a new environment in your terminal for CAVIAR:
 ```conda create -n caviar -c jr-marchand caviar ```
 
 ### Activating the environment  
-Activate your environment (*always activate it* for using CAVIAR):
+Activate your environment (*always activate it* in the terminal you're lauching CAVIAR from):
 ```conda activate caviar ```
 
 And that is it! CAVIAR is accessible with the ```caviar``` command, and the user interface via the ```caviar-gui``` command.
