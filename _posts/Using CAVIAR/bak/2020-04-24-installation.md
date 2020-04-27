@@ -1,10 +1,9 @@
 ---
 layout: post
-title: "How to Create a New Category"
-date: 2019-11-05 08:44:38 -0400
+title: "Installation of CAVIAR"
 category: using-caviar
-author: mac
-short-description: Organize your articles with categories
+author: jr
+short-description: How to install CAVIAR?
 ---
 
 -----
