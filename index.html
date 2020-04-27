@@ -20,7 +20,7 @@ title: Home
                 <div class="card-body text-center my-4">
                   <h5 class="text-bold">{{ page_category.name }}</h5>
                       
-                  {% if category[1].size == 1 %}
+                  {% if category.size == 1 %}
                   <p class="m-0">{{ category | last | size }} article</p>
                   {% else %}
                   <p class="m-0">{{ category | last | size }} articles</p>
