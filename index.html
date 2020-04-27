@@ -19,10 +19,10 @@ title: Home
               <div class="card card-link">
                 <div class="card-body text-center my-4">
                   <h5 class="text-bold">{{ page_category.name }}</h5>
-                  {% if page_category.size == 1 %}
-                  <p class="m-0">{{ category | last | size }} article</p>
+                  {% if site.categories[category_name].size <= 1 %}
+                  <p class="m-0">{{ site.categories[category_name].size }} article</p>
                   {% else %}
-                  <p class="m-0">{{ site.categories[category_name].size }} arTICLES</p>
+                  <p class="m-0">{{ site.categories[category_name].size }} articles</p>
                   {% endif %}
                 </div>
               </div>
