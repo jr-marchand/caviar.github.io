@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "User interface of CAVIAR"
-date: 2020-04-22 16:33:38 -0400
+date: 2020-04-22 09:33:38 +0100
 category: using-caviar
 author: jr
 short-description: Quick walkthrough of the GUI 
