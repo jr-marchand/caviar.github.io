@@ -3,10 +3,6 @@
   border-collapse: collapse;
   border-spacing: 0;
   width: 100%;
-  max-width: 100%;
-  overflow-y: auto;
-  _overflow: auto;
-  margin: 0 0 1em;
 
   @if $rtl == true {
     text-align: right;
@@ -70,5 +66,13 @@
   }
   th {
     border-bottom-width: $border-width-lg;
+  }
+
+
+  @include media-query($on-laptop) {
+    display: block;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+            -ms-overflow-style: -ms-autohiding-scrollbar;
   }
 }
