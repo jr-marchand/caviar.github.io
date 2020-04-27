@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "How to Create a New Category"
+title: "Installation of CAVIAR"
 category: using-caviar
 author: jr
-short-description: Organize your articles with categories
+short-description: How to install CAVIAR?
 ---
 
 -----
