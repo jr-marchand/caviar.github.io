@@ -8,6 +8,7 @@
   overflow: auto;
   margin: 0 0 1em;
 
+
   @if $rtl == true {
     text-align: right;
   } @else {
