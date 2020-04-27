@@ -3,10 +3,11 @@ layout: post
 title: "How to Create a New Category"
 date: 2019-11-05 08:44:38 -0400
 category: using-caviar
-author: mac
+author: jr
 short-description: Organize your articles with categories
 ---
 
+-----
 
 ### Downloading and installing the software  
 The best way to get CAVIAR is to install the Anaconda package manager for Python.
