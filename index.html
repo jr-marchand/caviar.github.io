@@ -21,7 +21,7 @@ title: Home
                   <h5 class="text-bold">{{ page_category.name }}</h5>
                   {% if site.categories[category_name].size == 1 %}
                   <p class="m-0">{{ site.categories[category_name].size }} article</p>
-                  {% elsif ite.categories[category_name].size == 0 %}
+                  {% elsif site.categories[category_name].size < 1 %}
                   <p class="m-0">Coming soon</p>
                   {% else %}
                   <p class="m-0">{{ site.categories[category_name].size }} articles</p>
