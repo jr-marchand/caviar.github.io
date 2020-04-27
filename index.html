@@ -22,7 +22,7 @@ title: Home
                   {% if page_category.size == 1 %}
                   <p class="m-0">{{ category | last | size }} article</p>
                   {% else %}
-                  <p class="m-0">{{ page_category.size }} articles</p>
+                  <p class="m-0">{{ site.tags[category_name] | size }} articles</p>
                   {% endif %}
                 </div>
               </div>
