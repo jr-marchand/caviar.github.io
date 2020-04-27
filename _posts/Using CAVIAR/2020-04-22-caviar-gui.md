@@ -13,3 +13,4 @@ First, make sure you have installed CAVIAR and activated the environment ([--> i
 You can call the GUI of CAVIAR with:  
 ```caviar_gui```
 
+![caviar_gui main window](/assets/caviar_main.png){:class="img-responsive"}
