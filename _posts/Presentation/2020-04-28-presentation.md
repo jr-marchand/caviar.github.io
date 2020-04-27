@@ -8,6 +8,6 @@ short-description: What can we do with CAVIAR as of now?
 
 -----
 
-CAVIAR stands for ***cav***ity ***i***dentification ***a***nd ***r***ationalization. 
+CAVIAR stands for **cav**ity **i**dentification **a**nd **r**ationalization. 
 
 **Article coming soon**
