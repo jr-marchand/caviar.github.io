@@ -29,3 +29,5 @@ In case you do not have PyMOL yet, you can install a version (accessible in the 
 
 
 - Architecture: CAVIAR is fully written in python and should be compatible with any OS. However, it was developped on a Linux system, and is restricted to the limitations of the external libraries it relies on (especially PyQT for the GUI). We expect it to work on any Linux or MacOS architecture supporting conda, but it does not function yet on Windows.
+
+- The source code is also available on [--> GitHub <--](https://github.com/jr-marchand/CAVIAR) and can be installed locally, providing that the dependencies are present in the active python environment.

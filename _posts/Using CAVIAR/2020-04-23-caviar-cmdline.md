@@ -14,7 +14,7 @@ Once you have installed CAVIAR and activated the environment ([--> installation 
 This will trigger the presentation of the tool. The most basic use only requires a PDB code:  
 ```caviar -code 1dwc```
 
-# Terminal output
+### Terminal output
 The output is visualized in the terminal as a table. The first table contains the list of identified cavities, ranked by cavity score.  
 
 
@@ -40,7 +40,7 @@ The output is visualized in the terminal as a table. The first table contains th
 - MissAtoms = Does the cavity contain missing atoms or residues? (Boolean) We advise to be very careful with cavities containing missing atoms, as they may be very noisy or even spurious.
 
 
-# Generated files
+### Generated files
 In addition, CAVIAR generates by default a certain number of files in the working directory:
 
 <blockquote>
@@ -62,7 +62,7 @@ To come back to our example with 1dwc, it contains three cavities, represented i
 The first cavity (resname GRI, chain A, resid 1) contains 4 subcavities. These 4 subcavities are named resname SUB (default for any subcavity), chain A (identifies the first cavity), residue identifiers 1 to 4 (identifies the 4 subcavities of said cavity).  
 
 
-# Command line arguments
+### Command line arguments
 
 ```caviar``` handles both command line arguments and the use of parameter/configuration files.  
 We already saw one command line argument earlier: ```-code``` option to specify a PDB code.  
@@ -77,7 +77,7 @@ We already saw one command line argument earlier: ```-code``` option to specify 
 - ```-v``` to activate verbosity.  
 - ```-preset_config``` gives the choice between three presets default configuration: search for cavities and decompose them into subcavities (default, "default"), only search for cavities ("cavities_only"), or only export subcavities ("subcavities_only").  
 
-# Configuration file 
+### Configuration file 
 
 ```caviar``` can take as unique argument, or in addition to command line arguments, a configuration file containing any of the parameters.
 
@@ -133,7 +133,7 @@ empty string value here =<br>
 Many parameters can be set in the configuration file and can be found in the advanced use section (```link it once it's written!```).
 
 
-# Final wrapping up example 
+### Final wrapping up example 
 
 Now let us make a final example combining all of the above. We want to check only subcavities of PDB 1dwc (human Thrombin (protease), in complex with an inhibitor), present in chain H, output in the folder "~/thrombin_caviar_out/" and we have already downloaded the PDB at ~/1dwc.pdb.  
 ```caviar -code 1dwc -sourcedir ~/ -chain_id H -preset_config subcavities_only -out ~/thrombin_caviar_out/ ```
