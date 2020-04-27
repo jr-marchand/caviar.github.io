@@ -39,7 +39,7 @@ The output is visualized in the right panel as a table that contains the list of
 | 1dwc_H    |     1  |   0.6   |   3.7  | 333   |   39%     |     0      |    0    |    0   |
 | 1dwc_H    |     2  |   0.2   |   0.9  |   51  |   10%     |     0      |    0    |    0   |
 | 1dwc_H    |     3  |   0.8   |   0.6  |   63  |   56%     |     0      |    0    |    0   |
-{:.table.table-hover}
+{:.table.table-scroll}
    
 
 - PDB_chain = PDB code underscore chain identifier (here, PDB 1dwc, chain H)
