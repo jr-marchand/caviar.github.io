@@ -22,7 +22,7 @@ title: Home
                   {% if category[1].size == 1 %}
                   <p class="m-0">{{ category | last | size }} article</p>
                   {% else %}
-                  <p class="m-0">5 articles</p>
+                  <p class="m-0">{{ category_name }} articles</p>
                   {% endif %}
                 </div>
               </div>
