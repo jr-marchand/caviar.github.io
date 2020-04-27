@@ -1,7 +1,6 @@
 ---
 layout: post
 title: "Installation of CAVIAR"
-date: 2020-04-24 09:31:38 +0100
 category: using-caviar
 author: jr
 short-description: How to install CAVIAR?

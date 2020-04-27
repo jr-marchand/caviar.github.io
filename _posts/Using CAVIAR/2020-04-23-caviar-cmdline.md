@@ -1,7 +1,6 @@
 ---
 layout: post
 title: "Command line use"
-date: 2020-04-23 09:33:38 +0100
 category: using-caviar
 author: jr
 short-description: Batch use 
