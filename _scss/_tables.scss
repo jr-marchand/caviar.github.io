@@ -4,6 +4,10 @@
   border-spacing: 0;
   width: 100%;
   max-width: 100%;
+  overflow-y: auto;
+  _overflow: auto;
+  margin: 0 0 1em;
+
   @if $rtl == true {
     text-align: right;
   } @else {
