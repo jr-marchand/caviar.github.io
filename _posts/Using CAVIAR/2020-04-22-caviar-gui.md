@@ -14,3 +14,7 @@ You can call the GUI of CAVIAR with:
 ```caviar_gui```
 
 ![caviar_gui main window](/assets/gui_main.png)
+
+
+
+![caviar_gui subpocket window](/assets/gui_sub.png)
