@@ -7,7 +7,6 @@ author: mac
 short-description: Organize your articles with categories
 ---
 
------
 
 ### Downloading and installing the software  
 The best way to get CAVIAR is to install the Anaconda package manager for Python.
